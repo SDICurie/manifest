@@ -1,0 +1,2 @@
+# manifest
+Curie BSP Manifest
