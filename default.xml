@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/CurieBSP/" name="github"/>
+  <default revision="master" remote="github"/>
+
+  <project name="main" path="wearable_device_sw"/>
+  <project name="bootloader" path="wearable_device_sw/bsp/bootable/bootloader"/>
+  <project name="zephyr" path="wearable_device_sw/external/zephyr"/>
+  <project name="kconfig" path="wearable_device_sw/external/kconfig"/>
+  <project name="micro-ecc" path="wearable_device_sw/external/micro-ecc"/>
+  <project name="sha256" path="wearable_device_sw/external/sha256"/>
+  <project name="liblzg" path="wearable_device_sw/external/liblzg"/>
+  <project name="minibsdiff" path="wearable_device_sw/external/minibsdiff"/>
+  <project name="python-ecdsa" path="wearable_device_sw/external/python-ecdsa"/>
+  <project name="qmsi" path="wearable_device_sw/packages/soc_drivers"/>
+</manifest>
