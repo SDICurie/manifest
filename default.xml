@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/CurieBSP/" name="github"/>
+  <remote fetch="https://github.com/SDICurie/" name="github"/>
   <default revision="master" remote="github"/>
 
   <project name="main" path="wearable_device_sw"/>
@@ -13,4 +13,6 @@
   <project name="minibsdiff" path="wearable_device_sw/external/minibsdiff"/>
   <project name="python-ecdsa" path="wearable_device_sw/external/python-ecdsa"/>
   <project name="qmsi" path="wearable_device_sw/packages/soc_drivers"/>
+  <project name="toolchain" path="wearable_device_sw/external/toolchain"/>
+  <project name="curie-ble" path="wearable_device_sw/packages/intel/curie-ble"/>
 </manifest>
